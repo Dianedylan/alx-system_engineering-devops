@@ -1,5 +1,4 @@
-# install puppet-lint -v 2.5.0
-
-exec { 'puppet-lint':
-  command => '/usr/bin/apt-get -y install puppet-lint -v 2.5.0',
+# Task 1: Install a package
+exec {
+  command =>  'puppet-lint -v 2.1.1',
 }
